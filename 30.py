@@ -20,3 +20,12 @@ except ZeroDivisionError:
     print("Error - Division by zero!")
     
 print('Continue...')
+
+# Except с определенным типом ошибки
+
+try:
+    print(10 / 0)
+except ZeroDivisionError:
+    print("Eror - Division by zero!")
+    
+print('Continue...') # Continue
